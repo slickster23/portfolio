@@ -1,0 +1,51 @@
+.hero-container {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url('./images/Website background.png');
+    height: 100vh;
+    width: 100%;
+    gap:-5rem;
+    object-fit: contain;
+    background-attachment: fixed;
+
+}
+
+.hero-container .text {
+    padding: 0 8%;
+    max-width: 500px;
+    margin-top: 5rem;
+  
+}
+
+.hero-container .text > h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom:-1rem;
+    color: white;
+}
+
+.hero-container .text .role-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-container .text >p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 200;
+    margin-top: -0.3rem;
+}
+
+.hero-container .text .role-container .roles {
+    font-weight: bold;
+    color:#fff;
+}
+
+.hero-container .icons-container {
+    display: flex;
+    gap: 3rem;
+    width: 400px;
+    padding: 0 8%;
+}

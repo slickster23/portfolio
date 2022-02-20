@@ -1,0 +1,132 @@
+#about { 
+    background: #e9e9e9;
+}
+
+.title h4 { 
+    font-weight: bold;
+    margin-top: 2rem;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 2rem;
+  color: #4e8cd3;
+  opacity: 0.5;
+    
+}
+
+.title, .subtitle {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle { 
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -2rem;
+}
+
+.subtitle h4 { 
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    padding: 0 9%;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.about-me .img-container {
+    width: 400px;
+    box-shadow: -27px 3px 0px 19px rgba(0,0,0,0.05);
+    -webkit-box-shadow: -27px 3px 0px 19px rgba(0,0,0,0.05);
+    -moz-box-shadow: -27px 3px 0px 19px rgba(0,0,0,0.05);
+
+}
+
+.about-me .text-container {
+    width: 600px;
+    height: fit-content;
+    display: block;
+    padding: 2rem 6%;
+    margin-left: -10rem;
+    z-index: 100;
+    margin-top: 2rem;
+    background:#fff;
+
+    box-shadow: 10px 10px 68px -18px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 68px -18px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 68px -18px rgba(0,0,0,0.75);
+   
+}
+
+.about-me .text-container h3 { 
+    font-weight: bold;
+    color: #5498e6;
+    font-size:2rem;
+}
+
+.about-me .text-container p { 
+    color: rgb(77, 77, 77);
+    line-height: 1.5rem;
+}
+
+.about-me .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.tech-stack .title h3 { 
+
+    font-weight: bold;
+    color: #3b6da5;
+    font-size: 1.5rem;
+    opacity: 0.6;
+
+}
+
+.tech-stack {
+    margin-top: 1rem;
+}
+
+.carousel { 
+    margin: auto;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.tech-stack .stack-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0 8%;
+}
+
+.tech-stack .stack-container .box-item { 
+    width: 100px;
+    height: 100px;
+}
+
+.tech-stack .stack-container .box-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#resume { 
+    background:rgb(245, 245, 245);
+    padding: 0 9%;
+    
+}
+
+.vertical-timeline-element-description { 
+    color: rgb(77, 77, 77);
+    font-weight: 100;
+}
