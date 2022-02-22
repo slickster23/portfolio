@@ -17,7 +17,7 @@ function About() {
 
         <div className="about-me">
             <div className="img-container">
-                <img src="/img/me2.jpg" alt="" />
+                <img src="/img/me.jpg" alt="" />
             </div>
 
             <div className="text-container">
@@ -39,7 +39,7 @@ function About() {
         <div className="tech-stack">
 
             <div className="stack-container">
-                <Carousel  className = "carousel"  swipeable = "true" centerMode= "true" interval={600} centerSlidePercentage={20}infiniteLoop="true" width="100%" showArrows="true">
+                <Carousel  className = "carousel"  swipeable = "true" centerMode= "true" interval={600} centerSlidePercentage={50}infiniteLoop="true" width="100%" showArrows="true">
                 <div class="box-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" />
 

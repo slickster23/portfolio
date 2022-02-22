@@ -1,5 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
+import { render } from 'react-dom';
+
 
 import Gallery from 'react-grid-gallery';
 

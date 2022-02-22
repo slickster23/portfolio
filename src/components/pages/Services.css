@@ -61,3 +61,9 @@ box-shadow: 10px 10px 39px -20px rgba(0,0,0,0.50);
 .services-container .service-box p {
     text-align: center;
 }
+
+@media (max-width:991px) {
+    .services-container {
+        flex-direction: column;
+    }
+}

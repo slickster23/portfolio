@@ -14,7 +14,7 @@ function Hero() {
             <h5>Hello there!</h5>
            <h2>I'm <span className="name"> Tokelo</span>  Foso</h2>
            <div className="role-container">
-           <h2>I'm a <span className="roles"> <Typewriter  options={{
+           <h2><span className="roles"> <Typewriter  options={{
                 strings: ["Software Developer", "Web Developer", "Graphic Designer", "Music Producer", "Disk Jockey"],
                 autoStart: true,
                 loop: true,
