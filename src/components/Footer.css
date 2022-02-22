@@ -1,0 +1,22 @@
+.footer {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text > p {
+    color:#fff;
+}
+
+.footer .text > p a {
+    color: #fff;
+}
+
+
+.footer .text >a :visited {
+    text-decoration: none;
+}

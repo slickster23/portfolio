@@ -1,15 +1,14 @@
 * {
-  font-family: Bahnschrift ;
+  font-family: Bahnschrift;
   font-weight: 100;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
-.spinner{ 
+.spinner {
   display: flex;
   margin: auto;
   margin-top: 20%;
   align-items: center;
   justify-content: center;
-  
-
 }

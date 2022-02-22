@@ -32,7 +32,7 @@ function About() {
                     <p>One of my core skills also includes graphic design and I have delivered a plethora 
                         of design artworks for some of my clients. For more information:</p>
 
-                        <Button variant="outlined">Download Resume</Button>
+                        <Button  className ="download-btn" variant="outlined">Download Resume</Button>
             </div>
         </div>
 

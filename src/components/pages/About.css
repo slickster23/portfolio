@@ -51,7 +51,7 @@
     width: 600px;
     height: fit-content;
     padding: 2rem 5%;
-    margin-left: -10rem;
+    margin-left: -18rem;
     z-index: 100;
     margin-top: 2rem;
     background:#fff;
@@ -60,6 +60,13 @@
 -webkit-box-shadow: 10px 10px 68px -18px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 68px -18px rgba(0,0,0,0.75);
    
+}
+
+.about-me .text-container .download-btn { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .about-me .text-container h3 { 

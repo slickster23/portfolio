@@ -18,7 +18,7 @@ function Services() {
                     </div>
 
                     <h3>Graphic Design</h3>
-                    <p>insert text</p>
+                    <p></p>
                 </div>
 
                 <div className="service-box">
@@ -27,7 +27,7 @@ function Services() {
                     </div>
 
                     <h3>Web Design</h3>
-                    <p>insert text</p>
+                    <p></p>
                 </div>
 
                 <div className="service-box">
@@ -36,7 +36,7 @@ function Services() {
                     </div>
 
                     <h3>Software Development</h3>
-                    <p>insert text</p>
+                    <p></p>
                 </div>
             </div>
 
