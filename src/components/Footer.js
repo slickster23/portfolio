@@ -6,7 +6,7 @@ function Footer() {
         <div className ="footer">
 
             <div className="text">
-            <p>Designed & Developed by <a href="http://tokelofoso.online">Tokelo Foso</a> |      All Rights Reserved</p> 
+            <p>Designed & Developed by <a href="http://tokelofoso.online">Tokelo Foso</a></p> 
            </div>
             
             

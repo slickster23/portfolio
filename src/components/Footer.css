@@ -1,6 +1,7 @@
 .footer {
     height: 10vh;
     width: 100%;
+    padding: 0 8%;
     position: relative;
     background-color: #2d2d2d;
     display: flex;
@@ -10,6 +11,7 @@
 
 .footer .text > p {
     color:#fff;
+    text-align: center;
 }
 
 .footer .text > p a {

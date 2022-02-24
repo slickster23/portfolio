@@ -29,10 +29,15 @@ function About() {
                     of Computer and Information Sciences degree majoring in Software Development 
                     and Mobile Systems. </p>
 
-                    <p>One of my core skills also includes graphic design and I have delivered a plethora 
-                        of design artworks for some of my clients. For more information:</p>
+                    <p>Throughout the course of my career, I have been involved in a plethora of projects whilst using
+                         various modern technologies and languages ranging from software and web development.</p>
 
-                        <Button  className ="download-btn" variant="outlined">Download Resume</Button>
+                    <p>One of my core skills also includes graphic design, with this I have been associated with a numerous
+                        amount of clients of which I have been able to design artworks for and bring their visions to reality.</p>
+
+                        <Button  className ="download-btn" variant="outlined">
+                            <a href="/TOKELO FOSO.pdf">Download Resume</a>
+                        </Button>
             </div>
         </div>
 
