@@ -1,10 +1,17 @@
 .form-container {
     width:100%;
     display: flex;
-    align-items: center;
-    justify-content:center;
+    flex-direction: column;
+
+    
     margin: 0 auto;
    
+}
+
+h4 { 
+    text-align: left;
+    letter-spacing:-0.01rem;
+    font-size: 0.85rem;
 }
 
 form{
@@ -34,11 +41,109 @@ form .button {
     display: flex;
     align-items: center;
     margin: auto;
+    color: white;
+    background-color:rgb(228, 8, 45);
 }
+
+form .button:hover{
+    color:rgb(228, 8, 45);
+    border: 1px solid rgb(228, 8, 45);
+    background-color:white;
+}
+
+.text-box { 
+    background-color: white;
+}
+.contact-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 7%;
+}
+
+.details-container {
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    height: 30vh;
+    width: 800px;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    background-color:rgb(228, 8, 45);
+  
+    box-shadow: 10px 10px 37px -20px rgba(0,0,0,0.55);
+    border-radius: 10px;
+    margin-bottom: 3rem;;
+
+
+}
+
+.box { 
+ 
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.box p { 
+    letter-spacing:-0.01rem;
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 500;;
+ 
+  margin-bottom: -0.5rem;
+}
+
+.icon { 
+    color:rgb(255, 255, 255);
+    width: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media screen and (max-width: 960px) {
     .form-container {
         flex-direction: column;
+    }
+
+    .details-container {
+   
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+        height: 100%;
+        border-radius: 0; 
+    }
+
+    .box { 
+        flex-direction: column;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    h4 { 
+        text-align: center;
+    }
+    .contact-container { 
+        flex-direction: column;
+        padding: 0%;
+    }
+    .map-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .map{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     form {

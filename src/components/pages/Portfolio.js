@@ -83,8 +83,10 @@ function Portfolio() {
   return (
     <div id = "portfolio">
         <div className="title">
-            <h4>portfolio</h4>
+            <h4><span>My</span> Portfolio</h4>
         </div>
+
+      
 
         <div className="gallery-container">
         <ResponsiveGallery useLightBox images={PHOTO_SET} />

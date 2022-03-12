@@ -27,7 +27,7 @@ function Services() {
                     </div>
 
                     <h3>Web Design</h3>
-                    <p></p>
+                    
                 </div>
 
                 <div className="service-box">
@@ -40,6 +40,14 @@ function Services() {
                 </div>
             </div>
 
+            <div className="getquote">
+
+                <h3>Need any of my services?</h3>
+
+                <div className="btn">
+                <a href="#contact">Get Quote</a>
+                </div>
+            </div>
             
         </div>
   )

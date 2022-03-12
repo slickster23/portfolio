@@ -1,3 +1,8 @@
+:root { 
+  --orange: rgb(228, 8, 45);;
+  --black: #000;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -18,7 +23,7 @@
 }
 
 .header-container.scroll .nav-menu .nav-item  .nav-links {
-  color:#6c89af;
+  color: var(--orange);
 }
 
 .header-container .logo {
@@ -37,18 +42,20 @@
   margin-right: 2rem;
 }
 
-.header-container .nav-list ul li {
+.nav-item {
   list-style: none;
 }
 
 .nav-links {
-  color: #6c89af;
+  color: var(--orange);
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-family: Poppins;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: Poppins;
+  font-size: 0.8rem;;
+ 
   letter-spacing: 0.1rem;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -57,7 +64,7 @@
 .header-container .nav-menu {
   display: flex;
   flex-direction: row;
-  font-size: 0.7rem;
+  font-size: 0.2rem;
   font-weight: 700;
   list-style: none;
   text-align: center;
@@ -89,15 +96,6 @@
   justify-content: center;
 }
 
-a {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 20px;
-  color: rgb(39, 37, 37);
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 
 .nav-links {
   color: white;
@@ -122,11 +120,29 @@ li {
     display: none;
   }
 
+  .nav-links { 
+    text-decoration: none;
+    color: var(--orange);
+  }
+
+  .mobile-menu a { 
+    text-decoration: none;
+  }
+
   .mobile__menu {
     display: flex;
     transition: all 0.5s ease;
   }
 
+
+.mobile-link { 
+  color: var(--orange);
+ margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
   .mobile__menu.open {
     transition: all 0.5s ease;
   }

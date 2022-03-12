@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 * {
-  font-family: Signika;
-  font-weight: 100;
+  font-family: Poppins;
+  font-weight: 300;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }

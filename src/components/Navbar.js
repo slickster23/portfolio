@@ -71,23 +71,23 @@ function Navbar() {
         onClick={() => setClick(!click)}
       >
         <div className="side-container">
-          <ul>
+          <ul className = "mobile-menu">
             <a href="#home">
-              <li>Home</li>
+              <li className = "mobile-link">Home</li>
             </a>
-            <a href="#about">
-              <li>About Me</li>
+            <a href="#about" >
+              <li className = "mobile-link" >About Me</li>
             </a>
             <a href="#services">
-              <li>Services</li>
+              <li className = "mobile-link">Services</li>
             </a>
           
             <a href="#portfolio">
-              <li>Portfolio</li>
+              <li className = "mobile-link">Portfolio</li>
             </a>
 
             <a href="#contact">
-              <li>Contact</li>
+              <li className = "mobile-link">Contact</li>
             </a>
           </ul>
         </div>

@@ -12,8 +12,11 @@ function About() {
   return (
     <div id ='about'>
         <div className="title">
-            <h4>About Me</h4>
+            <h4> <span>About</span> Me</h4>
         </div>
+
+     
+     
 
         <div className="about-me">
             <div className="img-container">
@@ -35,16 +38,16 @@ function About() {
                     <p>One of my core skills also includes graphic design, with this I have been associated with a numerous
                         amount of clients of which I have been able to design artworks for and bring their visions to reality.</p>
 
-                        <Button  className ="download-btn" variant="outlined">
+                        <div  className ="download-btn" >
                             <a href="/TOKELO FOSO.pdf">Download Resume</a>
-                        </Button>
+                        </div>
             </div>
         </div>
 
         <div className="tech-stack">
 
             <div className="stack-container">
-                <Carousel  className = "carousel"  swipeable = "true" centerMode= "true" interval={600} centerSlidePercentage={50}infiniteLoop="true" width="100%" showArrows="true">
+                <Carousel  showStatus = {false} className = "carousel"  showThumbs = {false} swipeable = {true} centerMode= {true} interval={600} centerSlidePercentage={50}infiniteLoop={true} width="100%" showArrows={true}>
                 <div class="box-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" />
 
@@ -103,66 +106,64 @@ function About() {
             </div>
         </div>
 
+    
+
         <div id = "resume">
 
         <div className="title">
-            <h4>resume</h4>
+            <h4><span>My</span> Resume</h4>
         </div>
 
         <div className="timeline-container">
             <VerticalTimeline>
                 <VerticalTimelineElement className="vertical-timeline-element--work"
-    contentStyle={{  color: '#000', borderTop:'5px solid #5498e6' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    contentStyle={{  color: '#000', borderTop:'5px solid rgb(228, 8, 45)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(228, 8, 45)' }}
     date="2021 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(228, 8, 45)', color: '#fff' }}
     icon={<WorkIcon />}>
-<h3 className="vertical-timeline-element-title" style={{ fontWeight: '400', color: '#4e8cd3' }}>Records Assistant</h3>
+<h3 className="vertical-timeline-element-title" >Records Assistant</h3>
     <h4 className="vertical-timeline-element-subtitle">Elizabeth Glazer Pediatric Aids Foundation</h4>
-    <p className="vertical-timeline-element-description" style={{ fontWeight: '200' }}>
-    Logging data into a web-based platform for COVID-19 vaccinations
-    </p>
+
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement className="vertical-timeline-element--work"
-    contentStyle={{  color: '#000', borderTop:'5px solid #5498e6' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    contentStyle={{  color: '#000', borderTop:'5px solid rgb(228, 8, 45)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(228, 8, 45)' }}
     date="2021 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(228, 8, 45)', color: '#fff' }}
     icon={<WorkIcon />}>
-<h3 className="vertical-timeline-element-title" style={{ fontWeight: '400', color: '#4e8cd3' }}>Freelance Graphic Designer</h3>
+<h3 className="vertical-timeline-element-title" >Freelance Graphic Designer</h3>
     <h4 className="vertical-timeline-element-subtitle">Osmium Lesotho</h4>
-    <p className="vertical-timeline-element-description" style={{ fontWeight: '200' }}>
-    Designed visual graphics for Osmium brand and all associated clients
-    </p>
+  
                 </VerticalTimelineElement>
             </VerticalTimeline>
 
             <VerticalTimeline>
                 <VerticalTimelineElement className="vertical-timeline-element--work"
-    contentStyle={{  color: '#000', borderTop:'5px solid #5498e6'}}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    contentStyle={{  color: '#000', borderTop:'5px solid rgb(228, 8, 45)'}}
+    contentArrowStyle={{ borderRight: '7px solid rgb(228, 8, 45)' }}
     date="2018 - 2021"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(228, 8, 45)', color: '#fff' }}
     icon={<SchoolIcon />}>
-<h3 className="vertical-timeline-element-title" style={{ fontWeight: '400', color: '#4e8cd3' }}>Bachelor of Computer & Information Sciences</h3>
+<h3 className="vertical-timeline-element-title" >Bachelor of Computer & Information Sciences</h3>
     <h4 className="vertical-timeline-element-subtitle">Monash University</h4>
-    <p className="vertical-timeline-element-description" style={{ fontWeight: '200' }}>
+    <p className="vertical-timeline-element-description" style={{ fontWeight: '300' }}>
     Majors studied : Mobile Systems & Software Development
     </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement className="vertical-timeline-element--work"
-    contentStyle={{  color: '#000', borderTop:'5px solid #5498e6' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2014 - 2016"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{  color: '#000', borderTop:'5px solid rgb(228, 8, 45)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(228, 8, 45)' }}
+    date="2014 - 2016" dateClassName={'date'}
+    iconStyle={{ background: 'rgb(228, 8, 45)', color: '#fff' }}
     icon={<SchoolIcon />}>
-<h3 className="vertical-timeline-element-title" style={{ fontWeight: '400', color: '#4e8cd3' }}>International General Certificate in Secondary Education</h3>
+<h3 className="vertical-timeline-element-title" >International General Certificate in Secondary Education</h3>
     <h4 className="vertical-timeline-element-subtitle">Machabeng College</h4>
                 </VerticalTimelineElement>
             </VerticalTimeline>
-
+         
             
         </div>
         </div>
