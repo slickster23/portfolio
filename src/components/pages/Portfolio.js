@@ -1,6 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import { render } from 'react-dom';
+import LanguageIcon from '@mui/icons-material/Language';
 
 
 import ResponsiveGallery from "react-responsive-gallery";
@@ -90,10 +91,61 @@ function Portfolio() {
 
         <div className="gallery-container">
         <ResponsiveGallery useLightBox images={PHOTO_SET} />
+        </div>
 
+        <div className="title">
+            <h4><span>Web</span> Portfolio</h4>
+        </div>
         <div className = "web-portfolio">
+          <div className="box">
+            <div className="image">
+            <img src="/img/gallery/covid19.png" alt="" />
+            </div>
+
+            <div className="info">
+        
+        <a href="https://slickster23.github.io/covid-19-tracker/" target="_blank">
+        <LanguageIcon className = "webicon"   style={{ fontSize: 50 }}/>
+          </a> 
+          </div>
+            </div>
+
+            <div className="box">
+            <div className="image">
+            <img src="/img/gallery/osmium.png" alt="" />
+            </div>
+
+            <div className="info">
+        
+        <a href="https://www.osmium.co.ls" target="_blank">
+        <LanguageIcon className = "webicon"  style={{ fontSize: 50 }}/>
+          </a> 
+          </div>
+            </div>
+
+            <div className="box">
+            <div className="image">
+            
+            <a href="https://restaurant-locator.netlify.app/">
+              <img src="/img/gallery/restaurant.png" alt=""/>
+                </a>
+            
+            </div>
+
+          <div className="info">
+        
+            <a href="https://restaurant-locator.netlify.app/" target="_blank">
+            <LanguageIcon className = "webicon"  style={{ fontSize: 50 }}/>
+              </a>
+           
+              
+              </div>
+            </div>
+         
+        
         </div>
-        </div>
+
+
     </div>
   )
 }
